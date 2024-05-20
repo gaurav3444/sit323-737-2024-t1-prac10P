@@ -1,0 +1,13 @@
+version: '3'
+services:
+  my-node-app:
+    platform: linux/amd64
+    image: sit323-24t1-sharma-4a25120/sit323-registry-task10p
+    ports:
+      - "8037:3040"
+    environment:
+      - PORT=8037
+    deploy:
+      replicas: 3
+    labels:
+      - "tier=frontend"

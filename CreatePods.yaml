@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: mypod
+  labels:
+    tier: frontend
+spec:
+  containers:
+  - image: sit323-24t1-sharma-4a25120/sit323-registry-task10p
+    name: my-node-app
+    ports:
+    - containerPort: 3040
+  dnsPolicy: ClusterFirst
+  restartPolicy: Always

@@ -1,0 +1,25 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: mydeployment
+  labels:
+    app: my-node-app
+    tier: frontend
+spec:
+  # modify replicas according to your case
+  replicas: 3
+  selector:
+    matchLabels:
+      tier: frontend
+  template:
+    metadata:
+      labels:
+        tier: frontend
+    spec:
+      containers:
+      - name: my-node-app
+        imagePullPolicy: Always
+        restartPolicy: Never
+        image: gcr.io/sit323-24t1-sharma-4a25120/sit323-registry-task10p
+        ports:
+        - containerPort: 3040
