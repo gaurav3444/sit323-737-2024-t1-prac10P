@@ -49,7 +49,7 @@ This task involves setting up a simple Node.js application, Dockerizing it, depl
 
 9. **Open Google Cloud Shell Terminal:**
    - Open the Google Cloud Shell terminal from the GCP console.
-    <img width="366" alt="Screenshot 2024-05-20 at 6 07 21 PM" src="https://github.com/gaurav3444/sit323-737-2024-t1-prac10P/assets/66586901/e03f0151-4160-46d6-9092-267bce05bdb9">
+       <img width="366" alt="Screenshot 2024-05-20 at 6 07 21 PM" src="https://github.com/gaurav3444/sit323-737-2024-t1-prac10P/assets/66586901/e03f0151-4160-46d6-9092-267bce05bdb9">
 
 
 10. **Create a Deployment:**
