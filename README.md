@@ -27,7 +27,7 @@ This task involves setting up a simple Node.js application, Dockerizing it, depl
      ```
      docker tag <source_image>:<tag> docker.pkg.dev/<project_id>/<repository_name>/<target_image>:<tag>
      ```
-     <img width="1231" alt="Screenshot 2024-05-20 at 5 22 14 PM" src="https://github.com/gaurav3444/sit323-737-2024-t1-prac10P/assets/66586901/ba72bddb-ef78-4d39-94c6-b4d7bd5bab77">
+     <img width="1176" alt="Screenshot 2024-05-20 at 6 01 15 PM" src="https://github.com/gaurav3444/sit323-737-2024-t1-prac10P/assets/66586901/02fbf559-cacb-4041-8fc7-fa933c8a00a7">
 
 6. **Push the Docker Image:**
    - Push the Docker image to the Artifact Registry:
